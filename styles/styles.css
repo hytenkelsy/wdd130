@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     background-color: lightpink;
     padding: 10px;
@@ -9,12 +14,16 @@ nav a {
     padding: 20px;
 }
 
+main {
+    margin: 1rem;
+}
+
 h1 {
     color: hotpink;
 }
 
-img {
-    width: 150px;
+main img {
+    width: 200px;
     height: auto;
     border: 2px solid black;
     padding: 2px;
@@ -22,5 +31,27 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+    max-width: 700px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 1px dashed hotpink;
+    text-align: center;
 }
