@@ -1,3 +1,7 @@
+:root {
+    padding: 10 px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,19 +34,12 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 0;
-    max-width: 700px;
-}
-
 aside {
-    width: 20rem;
-    margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: lightpink;
     color: black;
-    text-align: center;
+    text-align: left;
 }
 
 aside img {
