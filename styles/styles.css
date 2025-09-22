@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -20,6 +21,7 @@ nav a {
 
 main {
     margin: 1rem;
+    font-size: x-large;
 }
 
 h1 {
@@ -32,23 +34,42 @@ main img {
     border: 2px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 aside {
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
     background-color: lightpink;
     color: black;
     text-align: left;
+    font-size: x-large;
+    display: inline-block;
 }
 
 aside img {
     width: 200px;
     height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+aside h2 {
+    font-size: smaller;
+    position: absolute;
+    top: 69%;
+    left: 50px;
+    z-index: 2;
 }
 
 footer {
     margin-top: 10px;
     border-top: 1px dashed hotpink;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+
 }
