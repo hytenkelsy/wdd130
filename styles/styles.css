@@ -8,24 +8,51 @@
     box-sizing: border-box;
 }
 
+header,
+.grid,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+
 nav {
     background-color: lightpink;
-    padding: 10px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 nav a {
     color: black;
     display: block;
+    text-decoration: none;
     padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    align-items: center;
 }
 
 main {
     margin: 1rem;
     font-size: x-large;
+    grid-column: 2/3;
+}
+
+main p {
+    padding-top: 10px;
 }
 
 h1 {
     color: hotpink;
+    border-bottom: 2px solid hotpink;
+    padding: 10px;
 }
 
 main img {
@@ -43,21 +70,22 @@ aside {
     text-align: left;
     font-size: x-large;
     display: inline-block;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
     width: 200px;
     height: auto;
     position: relative;
-    z-index: 1;
 }
 
 aside h2 {
     font-size: smaller;
     position: absolute;
-    top: 69%;
-    left: 50px;
-    z-index: 2;
+    top: 63.5%;
+    left: 485px;
+    z-index: 1;
 }
 
 footer {
