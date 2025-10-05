@@ -123,11 +123,12 @@ h2 {
 .history img {
     align-self: center;
     justify-self: center;
+    max-width: 200px;
 }
 
 .adventure {
     display: grid;
-    grid-template-columns: repeat(5 1fr);
+    grid-template-columns: repeat(5, 1fr);
     padding: 5px;
     margin: auto;
     justify-items: center;
